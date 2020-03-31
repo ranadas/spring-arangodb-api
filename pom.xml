@@ -19,6 +19,9 @@
         <swagger.version>2.9.2</swagger.version>
     </properties>
 
+    <modules>
+        <module>graph-api</module>
+    </modules>
     <dependencyManagement>
         <dependencies>
             <dependency>

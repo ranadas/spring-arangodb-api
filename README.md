@@ -26,6 +26,9 @@ $
 $ docker run -p 8529:8529 -e ARANGO_ROOT_PASSWORD=openSesame arangodb/arangodb:3.6.2
 ```
 
+## Run UI
+http://localhost:8529/_db/_system/_admin/aardvark/index.html#dashboard
+
 ### Development
 
 
