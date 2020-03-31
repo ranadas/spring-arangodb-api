@@ -17,12 +17,16 @@ Install the dependencies and devDependencies and start the server.
 
 ```sh
 $ cd data
-$ docker run -p 8529:8529 -e ARANGO_ROOT_PASSWORD=openSesame arangodb/arangodb:3.6.2
+$ docker build --tag arzaarango:1.0 .
+$ docker run --publish 8529:8529 --detach --name arangodb arzaarango:1.0
 $ 
 ```
-
+ or Straight from dockerhub
+ ```shell script
+$ docker run -p 8529:8529 -e ARANGO_ROOT_PASSWORD=openSesame arangodb/arangodb:3.6.2
+```
 
 ### Development
 
 
-
+	https://dillinger.io/
