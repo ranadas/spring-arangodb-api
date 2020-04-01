@@ -6,7 +6,7 @@ import com.arangodb.springframework.config.ArangoConfiguration;
 import org.springframework.context.annotation.Configuration;
 
 @Configuration
-@EnableArangoRepositories(basePackages = {"com.arzamed.graph.model"})
+@EnableArangoRepositories(basePackages = {"com.arzamed.graph.repository"})
 public class GraphyConfig implements ArangoConfiguration {
     @Override
     public ArangoDB.Builder arango() {

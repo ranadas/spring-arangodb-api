@@ -32,4 +32,10 @@ http://localhost:8529/_db/_system/_admin/aardvark/index.html#dashboard
 ### Development
 
 
+### Reference URLS
+* for Markdown
+  
 	https://dillinger.io/
+* for latitude and longitidude
+
+    https://www.latlong.net/
